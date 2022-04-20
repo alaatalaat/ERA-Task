@@ -1,0 +1,46 @@
+$bg_green:#366a69;
+$mainColor:#EE5A24;
+
+.carousel:first-of-type{
+  .carousel-inner{
+    .carousel-item:nth-of-type(1){
+      height: 500px;
+      background-image:url('../../assets/bg1.png');background-size:cover;
+      .row{
+        div{
+          background:rgba(52,105,106,0.8);padding:100px;
+          h2{color:$mainColor;}
+          .btn{background:$mainColor;color:#fff;padding: 5px 20px;}
+        }
+      }
+    }
+
+    .carousel-item:nth-of-type(2){
+      height: 500px;
+      background-image:url('../../assets/bg2.png');background-size:cover;
+      justify-content:center;align-items:center;
+      text-align:center;
+     .row{
+        div{
+          background:rgba(52,105,106,0.8);padding:100px;
+          h2{color:$mainColor;}
+          .btn{background:$mainColor;color:#fff;padding: 5px 20px;}
+        }
+     }
+    }
+
+    .carousel-item:nth-of-type(3){
+      height: 500px;
+      background-image:url('../../assets/bg1.png');background-size:cover;
+    }
+  }
+
+
+}
+
+
+
+
+.carousel-indicators button{border-radius:50%;height:10px;width:10px;}
+.carousel-indicators .active{background-color:$mainColor !important}
+

@@ -1,0 +1,22 @@
+$bg_green:#366a69;
+$mainColor:#EE5A24;
+.footer{
+  >div{
+    background:rgba(52,105,106,0.8);;
+  }
+  background-image:url('../../assets/bg1.png');
+  .container{
+    .col-sm-12{
+      h4{color:$mainColor;}
+      span{
+        border:1px solid $mainColor;border-radius:50%;
+        padding:3px;font-size:12px;color:$mainColor;
+        margin:0px 3px;
+      }
+      .col-2{
+        background:$mainColor;margin: 0px 10px 0px 0px;
+        padding:2px 0px;border-radius: 3px;color:#fff;
+      }
+    }
+  }
+}

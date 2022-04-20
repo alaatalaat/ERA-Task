@@ -1,0 +1,11 @@
+$bg_green:#366a69;
+$mainColor:#EE5A24;
+
+.service-one{
+  height:100vh;
+  background-image:url('../../assets/bg1.png');
+  >div{
+    background:rgba(52,105,106,0.8);height:100%;
+    h4{color:$mainColor;font-size:25px;}
+  }
+}

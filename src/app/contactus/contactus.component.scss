@@ -1,0 +1,28 @@
+$bg_green:#366a69;
+$mainColor:#EE5A24;
+
+.contact{
+  height:100%;
+  >div{
+    background:rgb(52,105,106);height:100%;
+    .col-sm-12:nth-child(2){
+      div:first-child{
+        h4{color:$mainColor}
+        p{margin-bottom:0px;color:#fff;font-size:14px;}
+      }
+      .row{
+        input{
+          border-radius:15px;
+          background:#8E9AA2;padding-left:5px;
+          border:none;margin-top:10px;
+        }
+        button{
+          border-radius:15px;
+          border:none;margin-top:10px;color:#fff;background:$mainColor;
+          padding:5px 0px;
+        }
+        ::placeholder{color:#fff;}
+      }
+    }
+  }
+}

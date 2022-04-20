@@ -1,0 +1,136 @@
+$bg_green:#366a69;
+$mainColor:#EE5A24;
+.first{
+
+  >.row{
+    background:rgba(52,105,106,0.8);
+    div:nth-child(1){
+      div:nth-of-type(1){
+        h2{color:$mainColor;}
+        p{padding:0px;margin:0px;color:#fff;}
+        text-align:center;
+      }
+      div:nth-of-type(2){
+        p{
+          font-size: 25px;color:$mainColor;margin-bottom:0px;font-weight:600;
+        }
+        span{color:#fff}
+      }
+    }
+    padding:70px 0px;
+  }
+  background-image:url('../../assets/bg1.png');
+}
+
+.second{
+  background-image:url('../../assets/bg1.png');height:auto;
+  >div{
+    .container{
+      .row{
+        div:first-child{
+          h4{color:$mainColor;margin:0px 50px;}
+          p{color:#fff;margin:0px 20px;}
+        }
+        .co-sm-12:first-of-type{
+          div{
+            position:relative;height:100%;
+            div:nth-child(1){
+              position:absolute;top:0px;left:25px;
+              background-image:url('../../assets/bg4.png');background-size:cover;
+              width:250px;height:250px;z-index:2;border-radius:5px;
+            }
+            div:nth-child(2){
+              position:absolute;top:20px;left:0px;
+              background:$mainColor;
+              width:250px;height:250px;z-index: 1;border-radius:5px;
+            }
+          }
+        }
+        .co-sm-12:nth-of-type(2){
+          div{height:250px;}
+          justify-content:center;align-items:center;display:flex;flex-direction:column;
+          p{width:70%;}
+        }
+      }
+    }
+    background:rgba(52,105,106,0.8);
+
+  }
+}
+
+.third{
+  background-image:url('../../assets/bg1.png');height:auto;
+  >div{
+    .container{
+      .row{
+        .co-sm-12:nth-of-type(1){
+          h4{color:$mainColor;}
+          justify-content:center;align-items:center;display:flex;flex-direction:column;
+          p{width:70%;}
+        }
+        .co-sm-12:nth-of-type(2){
+          div{
+            position:relative;height:100%;
+            div:nth-child(1){
+              position:absolute;top:0px;left:25px;
+              background-image:url('../../assets/bg5.png');background-size:cover;
+              width:250px;height:250px;z-index:2;border-radius:5px;
+            }
+            div:nth-child(2){
+              position:absolute;top:20px;left:0px;
+              background:$mainColor;
+              width:250px;height:250px;z-index: 1;border-radius:5px;
+            }
+          }
+        }
+      }
+    }
+    background:rgba(52,105,106,0.8);padding-bottom:250px;
+
+  }
+}
+
+
+.four{
+  background-image:url('../../assets/bg1.png');height:auto;
+  .row{
+    background:rgba(52,105,106,0.8);
+    div{
+      background-image:url('../../assets/lorem.png');background-size:cover;
+      height:550px;background-repeat:no-repeat;
+    }
+  }
+}
+
+
+.fifth{
+  background-image:url('../../assets/bg1.png');height:auto;
+  >div{
+    .container{
+      .row{
+        .co-sm-12:nth-of-type(1){
+          h4{color:$mainColor;font-size:30px;}
+          justify-content:center;align-items:center;display:flex;flex-direction:column;
+          p{width:70%;}
+        }
+        .co-sm-12:nth-of-type(2){
+          div{
+            position:relative;height:100%;
+            div:nth-child(1){
+              position:absolute;top:0px;left:25px;
+              background-image:url('../../assets/bg6.png');background-size:cover;
+              width:250px;height:250px;z-index:2;border-radius:5px;
+            }
+            div:nth-child(2){
+              position:absolute;top:20px;left:0px;
+              background:$mainColor;
+              width:250px;height:250px;z-index: 1;border-radius:5px;
+            }
+          }
+        }
+      }
+    }
+    background:rgba(52,105,106,0.8);padding-bottom:250px;
+
+  }
+}
